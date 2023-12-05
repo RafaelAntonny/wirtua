@@ -57,11 +57,6 @@ section#about .container {
     display: block;
 }
 
-section#about .container img {
-    height: 500px;
-    width: auto;
-}
-
 section#about .about-content h3 {
     margin-top: 1rem;
 }
@@ -184,6 +179,11 @@ img {
     header .container {
         max-width: calc(100% - 15rem);
     }   
+
+    section#about .container img {
+        height: 500px;
+        width: auto;
+    }
 
     section#about .about-content p {
         width: clamp(45ch, 50%, 75ch);
