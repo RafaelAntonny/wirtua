@@ -178,7 +178,7 @@ img {
 
     header .container {
         max-width: calc(100% - 15rem);
-    }   
+    }
 
     section#about .container img {
         height: 500px;
@@ -189,6 +189,15 @@ img {
         width: clamp(45ch, 50%, 75ch);
         text-align: center;
         margin: 0 auto;
+    }
+
+    .slide-content {
+        justify-content: space-between;
+    }
+
+    .slide-content {
+        display: flex;
+        align-items: center;
     }
 
     .grid-container {
